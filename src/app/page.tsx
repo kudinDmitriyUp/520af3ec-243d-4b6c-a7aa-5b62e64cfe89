@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -67,6 +67,7 @@ export default function Home() {
           tagIcon={Sparkles}
           textboxLayout="default"
           animationType="slide-up"
+          gridVariant="uniform-all-items-equal"
           features={[
             {
               title: "Luxury Spa & Wellness",
@@ -100,6 +101,7 @@ export default function Home() {
           tagIcon={Bed}
           textboxLayout="default"
           animationType="slide-up"
+          gridVariant="uniform-all-items-equal"
           products={[
             {
               id: "deluxe",
